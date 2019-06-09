@@ -16,9 +16,10 @@ recipes=(
   slack
   spectacle
   tableplus
-  teamviewer
   visual-studio-code
   spotify
+  authy
+  rocket
 )
 
 # Install Homebrew recipes.

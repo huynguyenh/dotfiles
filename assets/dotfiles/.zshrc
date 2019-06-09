@@ -4,6 +4,18 @@ export PATH=/Users/$(id -un)/.nvm/versions/node/v8.9.0/bin:/Users/$(id -un)/.dot
 
 umask 022
 
+function git_current_branch () {
+    local ref
+    ref=$(command git symbolic-ref --quiet HEAD 2> /dev/null)
+    local ret=$?
+    if [[ $ret != 0 ]]
+    then
+        [[ $ret == 128 ]] && return
+        ref=$(command git rev-parse --short HEAD 2> /dev/null)  || return
+    fi
+    echo ${ref#refs/heads/}
+}
+
 # alias
 if type exa > /dev/null; then
   alias ls="exa"
@@ -34,7 +46,7 @@ alias gm='git commit -m'
 alias gma='git commit -am'
 alias gb='git branch'
 alias gba='git branch -a'
-
+alias gpsup='git push --set-upstream origin $(git_current_branch)'
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
