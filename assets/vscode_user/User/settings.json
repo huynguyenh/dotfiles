@@ -1,0 +1,124 @@
+// Place your settings in this file to overwrite the default settings
+// Place your settings in this file to overwrite the default settings
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".vscode/chrome/": true,
+        "flow-typed/": true,
+        "build/": true
+    },
+    "javascript.format.enable": false,
+    "editor.formatOnSave": false,
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 2,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "editor.fontLigatures": true,
+     // Controls the font size in pixels.
+    "editor.fontSize": 14,
+    // "editor.fontSize": 15,
+    // "editor.lineHeight": 25,
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "editor.renderControlCharacters": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "editor.mouseWheelZoom": false,
+    "editor.renderLineHighlight": "all",
+    "editor.cursorBlinking": "solid",
+    "editor.snippetSuggestions": "inline",
+    "editor.tabSize": 2,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "window.openFilesInNewWindow": "on",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#23323b",
+        "activityBar.foreground": "#6d777d",
+        "statusBar.background": "#23323b",
+        "statusBar.foreground": "#6d777d"
+    },
+    // confirm when click on the sync icon on status bar
+    "git.confirmSync": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.lineHeight": 1.4,
+    "files.associations": {
+        // "*.yml": "ansible",
+        "Jenkinsfile": "groovy",
+        "*.js": "javascriptreact",
+        "*.jsx": "javascriptreact",
+        "*.vue": "vue"
+    },
+    // auto update extension
+    "extensions.autoUpdate": true,
+    // language specific settings
+    // go
+    "[go]": {
+        "editor.formatOnSave": true
+    },
+    "go.autocompleteUnimportedPackages": true,
+    // js
+    "javascript.validate.enable": false,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    // eslint
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "prettier.eslintIntegration": true,
+    // html
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    // misc
+    "window.zoomLevel": 1,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.tabCloseButton": "left",
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "vsicons.projectDetection.disableDetect": true,
+    "workbench.colorTheme": "Oceanic Next (Sublime)",
+    "workbench.iconTheme": "vscode-icons",
+    "gitlens.gitExplorer.files.layout": "tree",
+    "workbench.sideBar.location": "left",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "extensions.ignoreRecommendations": false,
+    "gitlens.keymap": "alternate",
+    "editor.fontFamily": "Dank Mono"
+}
