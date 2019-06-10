@@ -20,6 +20,7 @@ recipes=(
   spotify
   authy
   rocket
+  basecamp
 )
 
 # Install Homebrew recipes.

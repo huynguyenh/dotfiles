@@ -44,6 +44,7 @@ recipes=(
   fx
   gitin
   exa
+  mkcert
 )
 
 # Install Homebrew recipes.
