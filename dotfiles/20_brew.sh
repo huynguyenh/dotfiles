@@ -45,6 +45,7 @@ recipes=(
   gitin
   exa
   mkcert
+  awscli
 )
 
 # Install Homebrew recipes.
