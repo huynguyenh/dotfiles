@@ -29,8 +29,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias -- -='cd -'
 
-alias ip="ipconfig en0"
-alias c="clear"
+alias ip='ipconfig en0'
+alias c='clear'
 
 alias g='git'
 alias gp='git push'
@@ -40,6 +40,7 @@ alias gl='git log'
 alias gg='gl --decorate --oneline --graph --date-order --all'
 alias gs='gitin status'
 alias gst='gs'
+alias gco='git checkout'
 alias gd='git diff'
 alias gdc='gd --cached'
 alias gm='git commit -m'
