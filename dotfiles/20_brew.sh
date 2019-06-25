@@ -46,6 +46,7 @@ recipes=(
   exa
   mkcert
   awscli
+  mysql
 )
 
 # Install Homebrew recipes.
