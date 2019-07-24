@@ -21,6 +21,7 @@ recipes=(
   authy
   rocket
   basecamp
+  android-studio
 )
 
 # Install Homebrew recipes.
