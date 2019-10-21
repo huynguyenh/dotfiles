@@ -85,7 +85,7 @@ PATH=$PATH:$GOPATH/bin
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 # Keep these lines at the bottom of zshrc
-ZSH_HIGHLIGHT_DIR=$DOTFILES/vendor/zsh-syntax-highlighting
+ZSH_HIGHLIGHT_DIR=~/dotfiles/vendor/zsh-syntax-highlighting
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR=$ZSH_HIGHLIGHT_DIR/highlighters
 source $ZSH_HIGHLIGHT_DIR/zsh-syntax-highlighting.zsh
 
